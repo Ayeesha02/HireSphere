@@ -1,0 +1,43 @@
+# Java/Spring Boot
+target/
+*.log
+.m2/
+*.class
+*.jar
+*.war
+*.ear
+
+# Node.js/React
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/*.log
+
+# Python/Flask
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+
+# Database
+*.sql.gz
+*.sqlite
+
+# Environment/Sensitive
+.env
+application.properties
+application.yml
+*.pem
+*.key
+*.crt
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+README.md/
