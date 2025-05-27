@@ -1,39 +1,40 @@
 # Java/Spring Boot
 target/
 *.log
-.m2/
 *.class
 *.jar
 *.war
 *.ear
+*.iml
 
-# Node.js/React
+# React/Node.js
 frontend/node_modules/
 frontend/build/
 frontend/dist/
-frontend/*.log
+frontend/.cache/
+*.log
 
-# Python/Flask
+# Python/Flask/AI
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 *.pyd
 *.egg-info/
-
-# Database
-*.sql.gz
-*.sqlite
-
-# Environment/Sensitive
-.env
-src/main/resources/application.properties
-
-
-# IDE
-.vscode/
-.idea/
-*.iml
-
 env/
 venv/
+*.h5
+*.pkl
+*.pt
+*.bin
+*.dylib
 
+# VS Code/IDE
+.vscode/
+.idea/
+
+# Env & Secrets
+.env
+application.properties
+src/main/resources/application.properties
+
+# Model directories
+**/TrainedModels/
