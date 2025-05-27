@@ -26,19 +26,14 @@ __pycache__/
 
 # Environment/Sensitive
 .env
-application.properties
-application.yml
-*.pem
-*.key
-*.crt
+src/main/resources/application.properties
+
 
 # IDE
 .vscode/
 .idea/
 *.iml
 
-README.md/
 env/
 venv/
 
-src/main/resources/application.properties
